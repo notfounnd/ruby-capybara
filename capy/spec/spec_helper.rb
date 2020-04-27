@@ -29,6 +29,14 @@ RSpec.configure do |config|
     # Comando 'if e.exception' condicional ternário para realizar screenshot apenas em execução com falha
     page.save_screenshot('log/' + nome + '.png') if e.exception # Screenshot apenas em execução com falha
     #page.save_screenshot('log/' + nome + '.png') # Screenshot em todas as execuções
+
+    # Comando 'RSpec.configuration.reporter.message()' para inserir detalhes de execução no Portal Report
+    RSpec.configuration.reporter.message(nome)
+
+    # Anexar arquivo nos detalhes da execução
+    # nome = 'log/' + nome + '.png'
+    # image = Pathname(__FILE__).dirname.parent + nome
+    # RSpec.configuration.reporter.message(image)
   end
 
 end
@@ -36,13 +44,13 @@ end
 Capybara.configure do |config|
 
   # Chrome
-  #config.default_driver = :selenium_chrome
+  config.default_driver = :selenium_chrome
 
   # Chrome em modo Headless
   #config.default_driver = :selenium_chrome_headless
   
   # Firefox
-  config.default_driver = :selenium
+  #config.default_driver = :selenium
 
   # Timeout para encontrar elemento na aplicação
   config.default_max_wait_time = 10
