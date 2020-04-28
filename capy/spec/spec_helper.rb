@@ -31,7 +31,7 @@ RSpec.configure do |config|
     #page.save_screenshot('log/' + nome + '.png') # Screenshot em todas as execuções
 
     # Comando 'RSpec.configuration.reporter.message()' para inserir detalhes de execução no Portal Report
-    RSpec.configuration.reporter.message(nome)
+    # RSpec.configuration.reporter.message(nome)
 
     # Anexar arquivo nos detalhes da execução
     # nome = 'log/' + nome + '.png'
