@@ -6,10 +6,9 @@ O objetivo principal desse projeto foi desenvolver de forma didática uma introd
 #### Pré-requisitos para uso
 Para utilização é necessário possuir instalado em sua estação de trabalho:
 
-```
-[Ruby + Devkit](https://rubyinstaller.org/downloads/) >= v2.4.0
-[Chromedriver](https://chromedriver.storage.googleapis.com/index.html)
-```
+> [Ruby + Devkit](https://rubyinstaller.org/downloads/) >= v2.4.0
+
+> [Chromedriver](https://chromedriver.storage.googleapis.com/index.html)
 
 #### Iniciando o ambiente do projeto
 Para iniciar o ambiente do projeto, você deve efetuar a instalação do Ruby + Devkit e configurar o chromedriver.exe no path de variáveis de ambiente do seu sistema operacional.
