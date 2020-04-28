@@ -3,6 +3,7 @@
 #
 #   Por arquivo:    rspec spec\hello_spec.rb
 #   Por tag:        rspec --tag @smoke
+#   ReportPortal:   rspec --tag @smoke -f ReportPortal::RSpec::Formatter
 #
 
 # Define o nome do conjunto de testes
