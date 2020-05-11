@@ -1,4 +1,4 @@
-## Ruby + Capybara + ReportPortal
+## Ruby + Capybara + RSpec + ReportPortal
 Projeto exemplo de automação de testes desenvolvido com Ruby + Capybara e integrado com a ferramenta [ReportPortal](https://reportportal.io/).
 
 O objetivo principal desse projeto foi desenvolver de forma didática uma introdução à linguagem Ruby para uso prático em um projeto voltado para automação de testes. Para uma melhor fixação dos conceitos desenvolvidos, todos os [arquivos de testes](https://github.com/notfounnd/ruby-capybara/tree/master/capy/spec) possuem comentários explicativos dos comandos utilizados.
